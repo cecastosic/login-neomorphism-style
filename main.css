@@ -76,8 +76,6 @@ main {
     border-radius: 40px;
     /* box-shadow: 3px 3px 15px #C9CBD8,
                 -3px -3px 15px #fff; */
-    box-shadow: inset 4px 4px 8px #C9CBD8,
-                inset -3px -3px 10px rgba(255,255,255,0.9);
     font-size: 1em;
     margin: 20px 0;
     outline: none;
@@ -92,13 +90,15 @@ main {
 
 .form input[type=text],
 .form input[type=password] {
+    box-shadow: inset 4px 4px 8px #C9CBD8,
+                inset -3px -3px 10px rgba(255,255,255,0.9);
     padding-left: 70px;
 }
 
 .form input[type=submit] {
     background: #73ABD7;
-    box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.8), 
-                3px 3px 15px #C9CBD8;
+    box-shadow: 5px 5px 8px #C9CBD8,
+                -7px -7px 8px rgba(255,255,255,0.8);
     font-size: 1.1em;
     color:#fff;
     text-transform: uppercase;
